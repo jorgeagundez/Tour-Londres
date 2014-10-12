@@ -6,5 +6,5 @@ I have never done a website before and with this project is the first time I use
 
 Feel free to propose any changes or improvements in the code.
 
-Jorge Agúndez
+Jorge Agúndez Medina
 
