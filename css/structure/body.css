@@ -1,0 +1,31 @@
+/** RESET CSS STYLES**/
+
+html,body,div,ul,li,h1,h2,p,header,aside,section,nav { 
+	margin:0px;
+	padding:0px;
+}
+
+html {
+	font-size:1em;
+}
+
+html, body {
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+
+body {
+	display:block;
+	position:relative;
+    font-family: 'Scada', sans-serif;
+	background-color:#F7F4D1;
+	font: normal 100%;
+	font-size:1rem;
+	
+}
+
+img {
+    border: none;
+}
+

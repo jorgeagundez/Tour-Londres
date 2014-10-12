@@ -1,0 +1,25 @@
+/**common style of the structure's body**/
+@import url("structure/body.css") screen;
+@import url("structure/header.css") screen;
+@import url("structure/section.css") screen;
+@import url("structure/footer.css") screen;
+
+
+/** fonts Google **/
+@import url("http://fonts.googleapis.com/css?family=Scada:400,700");
+
+/** Sections style **/ 
+@import url("structure/sections/home.css") screen;
+@import url("structure/sections/whoweare.css") screen;                                       
+@import url("structure/sections/tours.css") screen;
+@import url("structure/sections/about.css") screen;
+@import url("structure/sections/prices.css") screen;
+@import url("structure/sections/contact.css") screen; 
+@import url("structure/sections/weektours.css") screen; 
+@import url("structure/sections/transfers.css") screen;
+@import url("structure/sections/free.css") screen;
+@import url("structure/sections/colaborations.css") screen;
+
+/** Conditions **/ 
+@import url("structure/sections/conditions.css") screen;
+

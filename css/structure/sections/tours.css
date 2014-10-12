@@ -1,0 +1,177 @@
+#tours > img {
+	display:block;
+	position:absolute;
+	width: 100%;
+	max-width: 100%;
+	height:100%;
+	opacity:1;
+}
+
+.contenttours {
+	display:inline-block;
+	position:absolute;
+	left:10%;
+	width:80%;
+	height:100%;
+	overflow:auto;
+	background-color:#231F1E;
+	opacity:0.95;
+}
+
+.contenttours table{
+	position:absolute;
+	left:5%;
+	text-align:center;
+	width:90%;
+	height:100%;
+	/**background-color:red;**/
+}
+
+.contenttours td {
+	position:relative;
+	border-radius:10%;
+	max-width:215px;
+    max-height:215px;
+	min-width:120px;
+    min-height:120px;
+	/**background-color:green;**/
+	
+}
+
+.contenttours a > img { /**Photo**/
+	top:4%;
+	left:12.5%;
+	position:absolute;
+	width:75%;
+    height:auto;
+    max-width:100%;
+    border-radius:10%;
+    opacity:1;
+    z-index:0;
+    box-shadow: 0px 0px 1px #3c3c3c;
+}
+
+/**------------------------- EACH TOUR ----------------------------**/
+.tourpanel > img {
+	display:block;
+	position:absolute;
+	width: 100%;
+	max-width: 100%;
+	height:100%;
+}
+
+.content {
+	display:inline-block;
+	position:absolute;
+	padding:0% 3% 0% 3%;
+	width:37%;
+	height:100%;
+	left:57%;
+	background-color:#231F1E;
+	opacity:0.95; 
+	overflow:auto;
+}
+
+.content h1{ 
+	color:#D48E12;
+	text-align:left;
+	text-shadow: 0px 0px 1px #808170;
+	font-size:2rem;
+	opacity:1; 
+}
+
+.content p{ 
+	color:#F7F4D1;
+	text-align:left;
+	text-align:justify;
+	font-size:0.97rem;
+	opacity:1; 
+}
+
+.content span{
+	color:#D48E12;
+}
+
+.meetingpoint {
+	display:inline-block;
+	position:absolute;
+	bottom:5%;
+	left:0%;
+	width: 0%;
+	height: 18%;
+	background-color:#231F1E;
+	opacity:0.95; 
+	overflow:hidden;
+}
+
+.meetingpoint img {
+	max-width:100%;
+	width:100%;
+	height:100%;
+	opacity:0;
+}
+
+
+
+/**------------------------- Tour navigation menu ----------------------------**/
+
+#tourNav {
+    display:block;
+	position:relative;
+	float:left;
+	left:0%;
+	top:10%;
+	width:13.5%;
+	height:89%;
+	z-index: 5;
+	background-color:#231F1E;
+	opacity:0;
+	overflow:hidden;
+	z-index:-1;
+}
+
+#tourNav ul { 
+	position:absolute;
+	list-style-type: none;
+	text-align:center;
+	width:100%;
+	height:96.5%;
+}
+
+.tourmenu {
+	display:block;
+	width:100%;
+	height:14.5%;
+	border-top: 1px solid #4e4b4a;
+	overflow:hidden;
+}
+
+
+#tourNav ul li a { 
+	color:#F7F4D1;
+	text-decoration:none;
+	line-height: 3.8;
+	text-transform:uppercase;
+	padding-right:0%;
+	font-size:0.95rem;
+
+	
+}
+
+/**------------------------- Tour background----------------------------**/
+
+section > aside {
+	display:block;
+	position:absolute;
+	width:100%;
+	margin:auto;
+	top:10%;
+	height:89%; 
+	overflow:hidden;
+	z-index:-2;
+	opacity:1;
+	background-color:#231F1E;
+}
+
+
+

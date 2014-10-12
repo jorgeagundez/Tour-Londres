@@ -1,0 +1,135 @@
+/** Heights **/
+@media screen and (min-height:700px) and (max-height:1024px){
+	#logo{ top:5%; } 
+	#name{ top:20%;}
+	#socialmedia{ top:64%; left:73.8%;}
+	section{ max-height:440px; }
+	#boardLanguages { left:77%; }
+}
+
+/** Width Interval 1 **/
+@media screen and (min-width:1024px) and (max-width:1300px){
+	.iconmedia{ width:12%; height:12%; }
+	#firstinfo { width:25%;}
+	#boardLanguages { left:77.3%; }
+}
+
+/** Width Interval 2 **/
+@media screen and (min-width:1024px) and (max-width:1210px){
+	#firstinfo { width:27.5%;}
+	.contenttours a > img { top:14%;}
+}
+
+/** Width Interval 3 **/
+@media screen and (min-width:1024px) and (max-width:1100px){
+	#logo{ height:95%; top:5%;}
+	#name{ width:50%; height:90%; top:18%; left:19% }
+	#firstinfo { width:30%;}
+	.panel { font-size:1rem }
+}
+
+/** Ipad Horizontal **/
+@media screen and (max-width:1024px){
+
+	header{	height:24%; }
+	#logo{ height:95%; top:10%;}
+	#name{ width:60%; height:90%; top:21%; left:19% }
+	#socialmedia{ top:65%;}
+	.iconmedia{ width:15%; height:15%; }
+	#boardLanguages { left:80.6%; }
+
+	section { height:60%;}
+	#firstinfo { width:30%;}
+	#firstinfo > h1 { font-size:1.8rem; margin-top:30%; }
+	#firstinfo > p { margin-top:5%; }
+	#firstinfo > p > strong { font-size:1rem; }
+	#mainNav ul li a { line-height: 2.1; }
+
+	.panel { font-size:1rem }
+
+	.contentwhoweare { left:0%; width:55%; }
+	.contenttransfers { left:39%; width:55%; }
+	.contentcontact { left:39%; width:55%;}
+	.contentabout { left:0%; width:55%; }
+	.contentprices { left:10%; width:74%; }
+
+	.contenttours a > img { top:10%;}
+
+	.contentweektours p:nth-child(6) { font-size:0.7rem; }
+
+	.meetingpoint {	height: 15%; }
+
+	#tourNav { width:16%; }
+	#tourNav ul li a { line-height: 3.1; }
+
+	.tourpanel { font-size:1rem }
+
+	.additionalinformation ul li a{ line-height: 2.5; }
+	
+}
+
+/** Ipad Vertical **/
+@media only screen and (min-device-width : 768px)and (max-device-width : 1024px)and (orientation : portrait){
+
+	header{	height:24%; }
+	#logo{ height:95%; top:30%;}
+	#name{ width:55%; height:90%; top:40%; left:20% }
+	#socialmedia{ top:75%;}
+	.iconmedia{ width:15%; height:15%; }
+	#boardLanguages { left:80.6%; }
+
+	section { height:60%;}
+	#firstinfo { width:30%;}
+	#firstinfo > h1 { font-size:1.8rem; margin-top:30%; }
+	#firstinfo > p { margin-top:5%; }
+	#firstinfo > p > strong { font-size:1rem; }
+	#mainNav ul li a { line-height: 2.1; }
+
+	.panel { font-size:1rem }
+
+	.contentwhoweare { left:0%; width:55%; }
+	.contenttransfers { left:39%; width:55%; }
+	.contentcontact { left:39%; width:55%;}
+	.contentabout { left:0%; width:55%; }
+	.contentprices { left:10%; width:74%; }
+
+	.contenttours a > img { top:10%;}
+
+	.contentweektours p:nth-child(6) { font-size:0.7rem; }
+
+	.meetingpoint {	height: 15%; }
+
+	#tourNav { width:16%; }
+	#tourNav ul li a { line-height: 3.1; }
+
+	.tourpanel { font-size:1rem }
+
+	.additionalinformation ul li a{ line-height: 2.5; }
+	
+}
+
+/** Width IMac **/
+@media screen and (width:1280px) {
+	#boardLanguages { left:80.3%; }
+}
+
+/** 1280 x 1024 **/
+@media screen and (min-width:1280px) and (min-height:900px){
+
+	header{	height:28%; }
+	#logo{ top:40%; left:4%;} 
+	#name{ top:50%; width:55%;}
+	#socialmedia{ top:75%; left:73.5%;}
+	section{ max-height:440px; }
+}
+
+/** High resolutions 2 **/
+@media screen and (min-width:1440px) and (min-height:900px){
+
+	header{	height:28%; }
+	#logo{ top:38%; } 
+	#name{ top:48%;}
+	#socialmedia{ top: 75%; left:74.8%;}
+	#boardLanguages { left:77.3%; }
+	section{ max-height:440px; }
+}

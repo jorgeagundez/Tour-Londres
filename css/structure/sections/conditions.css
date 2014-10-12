@@ -1,0 +1,40 @@
+.contentconditions {
+	display:inline-block;
+	position:absolute;
+	padding:0% 3% 0% 3%;
+	width:68%;
+	height:100%;
+	left:13.5%;
+	background-color:#231F1E;
+	opacity:0.87; 
+	overflow:auto;
+}
+
+.contentconditions ul {
+	list-style-type: none;
+}
+
+.contentconditions h1 {
+	color:#D48E12;
+	text-align:left;
+	text-shadow: 0px 0px 1px #808170;
+	font-size:2rem;
+	opacity:1;
+}
+
+.contentconditions h3 {
+	font-size:1.5rem;
+	color:#F7F4D1;
+}
+
+.contentconditions p{ 
+	color:#F7F4D1;
+	text-align:left;
+	text-align:justify;
+	font-size:0.8rem;
+	opacity:1; 
+}
+
+.contentconditions span{
+	color:#D48E12;
+}

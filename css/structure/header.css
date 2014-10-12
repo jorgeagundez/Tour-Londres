@@ -1,0 +1,159 @@
+header { 
+	display:block;
+	position:relative;
+	width:100%; /**the same width as body**/
+	height:22%;
+	max-width:1366px;
+	margin: auto;
+	overflow:hidden;
+	z-index: 4;
+}
+
+
+/**-------------------------------------------------- 1. Logo and name-----------------------------------------------------------**/
+
+#logo { /**logo image**/
+	display:inline-block;
+	position:absolute;
+	width:11%;
+	height:105%;
+	max-width:160px;
+	max-height:155px;
+	min-width:130px;
+	min-height:135px;
+	left:7%;
+}
+
+#name {/**name image**/
+	display:inline-block;
+	position:absolute;
+	width:43%;
+	height:95%;
+	max-width:600px;
+	max-height:140px;
+	min-width:500px;
+	min-height:100px;
+	top:15%;
+	left:18.25%;
+	opacity:0.9;
+}
+
+header h1 a { /*name site**/
+	display:inline-block;
+	position:absolute;
+	left:18.31%;
+	top:8%;
+	font-family:"Tw Cen MT Condensed Extra Bold", tahoma, sans-serif;
+	font-size:2.6em;
+	color:#231F1E;
+	text-shadow: 0px 0px 1px white;
+	text-decoration:none;
+	opacity:0;
+}
+
+header h2 {
+	display:inline-block;
+	position:absolute;
+	left:19%;
+	top:75%;
+	font-family:"Tw Cen MT Condensed Extra Bold",tahoma, sans-serif;
+	font-size:1.3em;
+	color:#231F1E;
+	width:100%;
+	height:100%;
+	opacity:0;
+}
+
+header h2 span {
+	color:#D48E12;
+}
+/**-------------------------------------------------- 2. Social media------------------------------------------------------**/
+
+#socialmedia {
+	display:inline-block;
+	position:absolute;
+	top:66%;
+	left:78%;
+}
+
+.iconmedia { /**each element of the list**/
+	float:left;
+	list-style:none;
+	margin:1.5%;
+	width:11%;
+	height:11%;
+	max-width:64px;
+	max-height:64px;
+	min-width:30px;
+	min-height:30px;
+	opacity:0.7;
+}
+
+.iconmedia a img {
+	border-radius:50%;
+	position:relative;
+	background-color:#F7F4D1;
+	max-width:100%;
+	height:auto;
+	
+}
+
+/**-------------------------------------------------- 3. Languages ------------------------------------------------------**/
+
+#boardLanguages { /**all languages panel**/
+	/**display:inline-block;**/
+	display:none;
+	position:relative;
+	left:80.1%;
+	width:138px;
+	height:30px;
+}
+
+#languages { /**flags list**/
+	display:none;
+	position:relative;
+	width:100%;
+	height:100%;
+	list-style:none;
+	overflow:hidden;
+	background-color:#FBF9E8;
+	border:2px solid #231F1E;
+	opacity:0.8;
+}
+
+#languages li { /**each row**/
+	margin-top:5px;
+	margin-left:22px;
+	float:left;
+	width:30px;
+	height:20px;
+	padding:1.5%;
+}
+
+#languages li img{
+	max-width:100%;
+	min-width:100%;
+	height:auto;
+}
+
+#show{ /** text showed **/
+	display:block;
+	position:relative;
+	width:100%;
+	background-color:#231F1E;
+	border:2px solid #231F1E;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+	opacity:0.8;
+}
+
+#show p {
+	display:block;
+	position:relative;
+	width:100%;
+	text-align:center;
+	color:#F7F4D1;
+	font-weight:bold;
+
+}
+	
